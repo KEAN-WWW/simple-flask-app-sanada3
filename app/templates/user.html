@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Page</title>
+</head>
+<body>
+    {% if username == 'jack' %}
+        <h1>Hello, {{ username|upper }}!</h1>
+    {% else %}
+        <h1>Hi, Anonymous!</h1>
+    {% endif %}
+</body>
+</html>
